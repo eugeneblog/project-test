@@ -7,7 +7,7 @@ module.exports = {
         path:__dirname,    //目标输出当前目录的绝对路径
         filename:'./release/bundle.js'  //用于输出的文件名
     },
-    module:{
+    module:{     
         rules:[{
             test: /\.js?$/,
             exclude:/(node_modules)/,
@@ -15,12 +15,12 @@ module.exports = {
         }]
     },
     plugins:[
-        new HtmlWebpackPlugin({
+        new HtmlWebpackPlugin({         //模版，将文件输出到模版当中
             template: "./index.html"
         })
     ],
-    devServer:{
-        contentBase:path.join(__dirname, './release'),
+    devServer:{                             //创建web服务
+        contentBase:path.join(__dirname, './release'), 
         open:true,
         port:9000
     }
