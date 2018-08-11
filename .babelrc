@@ -4,6 +4,6 @@
         "latest"
     ],
     "plugins": [
-        
+        "transform-decorators-legacy"
     ]
 }
