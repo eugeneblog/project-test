@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name" : "《论中国》",
+        "price" : 149,
+        "discount" : 1
+    },
+    {
+        "id":2,
+        "name" : "《未来简史》",
+        "price" : 234,
+        "discount" : 1
+    },
+    {
+        "id":2,
+        "name" : "《全球通史》",
+        "price" : 224,
+        "discount" : 1
+    },
+    {
+        "id":2,
+        "name" : "《三体》",
+        "price" : 112,
+        "discount" : 1
+    }
+]
